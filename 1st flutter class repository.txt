@@ -1,2 +1,13 @@
-hy this is first class.
-repo succeed
+If git push not worked then follow these steps:
+go to settin.
+developer setting
+personal access tokens
+toekens classic
+generate new token and allow all accesses.
+write this
+git remote set-url origin https://(paste token here )@github.com(copy user name and reposatory name here)
+    // e.g ( git remote set-url origin https://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@github.com/mramin7/flutter-class-1-repo)
+paste it and enter
+git push origin main
+
+      // this will push your repository becasue the username and password method is not working anymore. thanks
